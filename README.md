@@ -1,4 +1,4 @@
-# 📌 RealMysql 8.0 스터디
+# 📌 RealMysql 8.0 스터디 - Vol.1
 ![image](https://user-images.githubusercontent.com/56028408/210354042-cef12393-88ac-4e00-aa85-908a4a4ee504.png)
 - RealMysql 8.0 - 1권
 

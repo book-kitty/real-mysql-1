@@ -21,13 +21,13 @@
 
 ### `권한`
 
-- 글로벌 권한과 객체 권한으로 분류 <sup>[privileges-provided](https://dev.mysql.com/doc/refman/8.0/en/privileges-provided.html)<sup>
+- 글로벌 권한과 객체 권한으로 분류 <sup>[privileges-provided](https://dev.mysql.com/doc/refman/8.0/en/privileges-provided.html)</sup>
     - 글로벌 권한 : 데이터베이스나 테이블 이외의 객체엥 적용되는 권한
     - 객체 권한 : 데이터베이스나 테이블을 제어하는 데 필요한 권한
 - GRANT 명령어를 통해 권한을 부여
     - 글로벌 권한을 부여할 경우 DB나 테이블에 부여가 불가하여 ON 절에 *.*만 가능
     - DB 권한은 특정 테이블을 명시할 수 없고 *만 가능
-- 각 계정이나 권한, 역할 확인을 위해 SHOW GRANTS를 사용하거나 관련 테이블을 볼 수 있음 <sup>[grant-tables](https://dev.mysql.com/doc/refman/8.0/en/grant-tables.html)<sup>
+- 각 계정이나 권한, 역할 확인을 위해 SHOW GRANTS를 사용하거나 관련 테이블을 볼 수 있음 <sup>[grant-tables](https://dev.mysql.com/doc/refman/8.0/en/grant-tables.html)</sup>
 
 ### `역할`
 
